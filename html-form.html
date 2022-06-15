@@ -1,0 +1,56 @@
+<!DOCTYPE.html>
+<html>
+    <head>
+        <meta parset="utf-8">
+        <title>FILL YOUR DETAILS-</title>
+    </head>
+    <body>
+        <form action="mailto:vaarunichoubey@gmail.com" method="post">
+            <h3>FILL YOUR DETAILS</h3>
+            <br><br>
+            <label for="username">WRITE YOUR NAME-</label>
+            <input type="text" name="username" id="username" placeholder="WRITE YOUR NAME" required>
+            <br><br>
+            <label for="password">ENTER A PASSWORD</label>
+            <input type="password" name="password" id="password" placeholder="ENTER A PASSWORD" required>
+            <br><br>
+            <label for="email">ENTER YOUR EMAIL-ID</label>
+            <input type="email" name="email" id="email" placeholder="ENTER YOUR EMAIL-ID" required>
+            <br><br>
+            <label for="tel">ENTER YOUR PHONE NUMBER-</label>
+            <input type="tel" name="phone number" id="phone number" pattern="[0-9]{10}" placeholder="01-23-45-67-89" required>
+            <br><br>
+            <label for="date">SELECT TODAY'S DATE</label>
+            <input type="date" name="date" id="date" placeholder="TODAY'S DATE" required>
+            <p>CHOOSE YOUR AGE-</p>
+            <input type="radio" name="age" id="age" value="0-18">
+            <label for="option-1">0-18</label>
+            <input type="radio" name="age" id="age" value="19-50">
+            <label for="option-2">19-50</label>
+            <input type="radio" name="age" id="age" value="+51">
+            <label for="option-3">ABOVE 51</label>
+            <br><br>
+            <label for="question">SECURITY QUESTIONS-</label>
+            <select name="question" id="question">
+                <option value="q1">WHAT'S YOUR BESTFRIEND NAME?</option>
+                <option value="q2">WHAT'S YOUR NAME?</option>
+                <option value="q3">WHAT'S YOUR PRECIOUS THING?</option>
+            </select>
+            <br><br>
+            <label for="answer">SECURITY QUESTION'S ANSWER-</label>
+            <input type="text" name="answer" id="answer" placeholder="SECURITY QUESTION'S ANSWER" required>
+            <br><br>
+            <label for="range">HOW MUCH DO YOU KNOW ABOUT FRONT END?</label><br>
+            <input type="range" name="range" id="range" placeholder="nothing-everything" required>
+            <br><br>
+            <label for="file">UPLOAD ANY CERTIFICATE OF FRONT END SPECIALITY IF U'VE ONE.</label><br>
+            <input type="file" name="file" id="file" required>
+            <br><br>
+            <label for="bio">WRITE ABOUT YOURSELF<label><br>
+            <textarea name="bio" id="bio" cols="30" rows="10" placeholder="I....">
+            </textarea>
+            <br><br>
+            <input type="submit" name="submit" id="submit">
+        </form>
+    </body>
+</html>
